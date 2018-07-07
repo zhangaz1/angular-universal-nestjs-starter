@@ -1,9 +1,14 @@
-# Angular Universal Starter
+# Angular Universal NestJS Starter
+<p align="center">
+<div>
+<a href="https://universal.angular.io" target="blank"><img src="https://angular.io/assets/images/logos/concept-icons/universal.png" width="320" alt="Angular Universal Logo" /></a>
+<a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+</div>
+</p>
 
-![Angular Universal](https://angular.io/assets/images/logos/concept-icons/universal.png)
-
-A minimal Angular starter for Universal JavaScript using the [Angular CLI](https://github.com/angular/angular-cli)
+A minimal Angular and NestJS starter for Universal JavaScript using the [Angular CLI](https://github.com/angular/angular-cli)
 If you're looking for the Angular Universal repo go to [**angular/universal**](https://github.com/angular/universal)  
+If you're looking for the NestJS repo go to [**nestjs/nest**](https://github.com/nestjs/nest)
 
 ## Getting Started
 
@@ -33,7 +38,7 @@ This repo demonstrates the use of 2 different forms of Server Side Rendering.
 * run `npm run start` which will start `ng serve`
 
 ### Production (also for testing SSR/Pre-rendering locally)
-**`npm run build:ssr && npm run serve:ssr`** - Compiles your application and spins up a Node Express to serve your Universal application on `http://localhost:4000`.
+**`npm run build:ssr && npm run serve:ssr`** - Compiles your application and spins up a NestJS Server to serve your Universal application on `http://localhost:3000`.
 
 **`npm run build:prerender && npm run serve:prerender`** - Compiles your application and prerenders your applications files, spinning up a demo http-server so you can view it on `http://localhost:8080`
 **Note**: To deploy your static site to a static hosting platform you will have to deploy the `dist/browser` folder, rather than the usual `dist`
